@@ -1,5 +1,6 @@
-module.exports = {
-  'Demo test Ecosia.org': function (browser) {
+describe('Ecosia', function() {
+
+  test('demo test', function(browser) {
     browser
       .url('https://www.ecosia.org/')
       .waitForElementVisible('body')
@@ -10,5 +11,6 @@ module.exports = {
       .click('button[type=submit]')
       .assert.visible('.search-box')
       .end();
-  }
-};
+  });
+
+});
