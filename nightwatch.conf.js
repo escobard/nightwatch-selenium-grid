@@ -2,7 +2,7 @@ const { config } = require("./constants")
 
 module.exports = {
   src_folders: ["tests"],
-  page_objects_path: ["screens"],
+  page_objects_path: '',
   globals_path : "nightwatch.globals.js",
   webdriver: config.webDriver,
   test_settings: {
@@ -19,7 +19,7 @@ module.exports = {
       desiredCapabilities: {
         browserName: "chrome",
         chromeOptions: {
-          args: ['headless'],
+          // args: ['headless'],
           w3c: false
         }
       },
