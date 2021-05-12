@@ -1,0 +1,22 @@
+{
+  "name": "nightwatch-selenium-grid",
+  "version": "0.0.1",
+  "description": "A nightwatch Proof of Concept, showcasing barebones npm functionality and selenieum grid usage with docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escobard/nightwatch-selenium-grid.git"
+  },
+  "keywords": [
+    "nightwatch"
+  ],
+  "author": "Daniel Escobar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/escobard/nightwatch-selenium-grid/issues"
+  },
+  "homepage": "https://github.com/escobard/nightwatch-selenium-grid#readme"
+}
