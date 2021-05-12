@@ -1,0 +1,5 @@
+node_modules/
+.idea/
+/chromedriver.log
+/tests_output/
+/screenshots/
