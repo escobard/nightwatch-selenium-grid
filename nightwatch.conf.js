@@ -5,6 +5,10 @@ module.exports = {
   page_objects_path: '',
   globals_path : "nightwatch.globals.js",
   webdriver: config.webDriver,
+  test_workers: {
+    enabled: true,
+    workers: "auto"
+  },
   test_settings: {
     default: {
       selenium_host: config.seleniumHub,
