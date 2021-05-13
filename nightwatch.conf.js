@@ -2,7 +2,7 @@ const { config } = require("./constants")
 
 module.exports = {
   src_folders: ["tests"],
-  page_objects_path: '',
+  page_objects_path: ["pages"],
   globals_path : "nightwatch.globals.js",
   webdriver: config.webDriver,
   test_workers: {
