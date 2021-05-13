@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run test",
-    "test": "nightwatch"
+    "test": "nightwatch",
+    "docker": "docker-compose -f docker/ui-tests.yaml up --exit-code-from e2e"
   },
   "repository": {
     "type": "git",
