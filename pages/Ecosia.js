@@ -14,7 +14,10 @@ const elements = {
 };
 
 const EcosiaCommands = {
-  assertLanding(title){
+  navigateToPage(){
+    return this.navigate(this.url);
+  },
+  assertLandingTitle(title){
     return this.waitForElementVisible('@body')
       .assert.titleContains(title);
   },
