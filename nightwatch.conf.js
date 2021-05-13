@@ -22,10 +22,16 @@ module.exports = {
       },
       desiredCapabilities: {
         browserName: "chrome",
+        javascriptEnabled: true,
+        acceptSslCerts: true,
         chromeOptions: {
-          // args: ['headless'],
+          args: ['headless'],
           w3c: false
-        }
+        },
+        ['goog:chromeOptions']: {
+          w3c: false,
+          args: ['no-sandbox', 'disable-setuid-sandbox', 'headless', 'whitelist-ips', 'disable-dev-shm-usage']
+        },
       },
       chrome: {
         desiredCapabilities: {

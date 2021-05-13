@@ -6,7 +6,6 @@ describe('Ecosia', function() {
     ecosia.navigateToPage();
     ecosia.assertLandingTitle('Ecosia');
     ecosia.submitSearch('Nightwatch');
-    ecosia.assertSecondSearch();
     browser.end();
   });
 

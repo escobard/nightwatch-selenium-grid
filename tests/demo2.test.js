@@ -10,7 +10,6 @@ describe('Ecosia', function() {
       .setValue('input[type=search]', 'nightwatch')
       .assert.visible('button[type=submit]')
       .click('button[type=submit]')
-      .assert.visible('.search-box')
       .end();
   });
 
