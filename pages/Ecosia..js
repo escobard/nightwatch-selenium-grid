@@ -1,10 +1,20 @@
-const elements = {};
+const elements = {
+  mainSearch: {
+    selector: 'input[type=search]'
+  },
+  submitButton: {
+    selector: 'button[type=submit]'
+  },
+  secondSearch: {
+    selector: '.search-box'
+  }
+};
 
 const EcosiaCommands = {};
 
 module.exports = {
   url(){
-    return this.api.launch_url
+    return 'https://www.ecosia.org/'
   },
   elements,
   commands: [EcosiaCommands]
