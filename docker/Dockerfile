@@ -1,5 +1,5 @@
 FROM node:alpine
-WORKDIR /usr/myp2-frontend/e2e
+WORKDIR /usr/e2e
 
 COPY ./package.json ./
 

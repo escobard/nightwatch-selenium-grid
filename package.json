@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run test",
     "test": "nightwatch",
-    "docker": "docker-compose -f docker/ui-tests.yaml up --exit-code-from e2e"
+    "docker": "docker-compose -f e2e-tests.yaml up --exit-code-from e2e"
   },
   "repository": {
     "type": "git",
