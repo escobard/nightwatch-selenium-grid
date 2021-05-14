@@ -27,7 +27,7 @@ services:
       driver: none
   e2e:
     container_name: e2e
-    working_dir: /usr/myp2-frontend/e2e
+    working_dir: /usr/e2e
     networks:
       - nightwatch-docker-grid-network
     environment:
@@ -39,11 +39,11 @@ services:
       - DOCKER=true
       - WAIT_HOSTS= hub:4444
     build:
-      context: ../
+      context: .
       dockerfile: docker/Dockerfile
     volumes:
-      - ../:/usr/myp2-frontend/e2e
-      - /usr/myp2-frontend/e2e/node_modules
+      - .:/usr/e2e
+      - /usr/e2e/node_modules
     command: |
       sh -c "/wait && sleep 5 && npm start"
 networks:
