@@ -25,7 +25,7 @@ module.exports = {
         javascriptEnabled: true,
         acceptSslCerts: true,
         chromeOptions: {
-          args: ['headless'],
+          args: [],
           w3c: false
         },
         ['goog:chromeOptions']: {

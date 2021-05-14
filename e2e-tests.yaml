@@ -41,9 +41,6 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile
-    volumes:
-      - .:/usr/e2e
-      - /usr/e2e/node_modules
     command: |
       sh -c "/wait && sleep 5 && npm start"
 networks:
