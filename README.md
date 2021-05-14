@@ -1,4 +1,4 @@
-# Nightwatch selenium grid
+# Nightwatch selenium grid [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![CircleCI Status](https://circleci.com/gh/escobard/nightwatch-selenium-grid.svg?style=shield&circle-token=eceefbfb1514c3b613fc322b9ce014e7271c2e26)](https://app.circleci.com/pipelines/github/escobard/nightwatch-selenium-grid) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/escobard/cloud-apps#pull-requests) 
 
 ## Quickstart
 
